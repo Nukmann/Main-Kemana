@@ -36,7 +36,7 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        db = new Database(this);
+        db = new Database(this); //komen
         filldata();
     }
 
