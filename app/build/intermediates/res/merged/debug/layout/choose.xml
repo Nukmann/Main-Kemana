@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".25">-->
+
+
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:id="@+id/choice2">-->
+
+
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:id="@+id/choice3">-->
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:id="@+id/choice1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:layout_weight=".33"
+            android:id="@+id/harga1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jarak"
+            android:layout_weight=".33"
+            android:id="@+id/jarak1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fasilitas"
+            android:id="@+id/fasilitas1"
+            android:layout_weight=".33"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="107dp"
+        android:id="@+id/choice2">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:id="@+id/harga2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jarak"
+            android:id="@+id/jarak2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fasilitas"
+            android:id="@+id/fasilitas2" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/choice3">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:id="@+id/harga3"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jarak"
+            android:id="@+id/jarak3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fasilitas"
+            android:id="@+id/fasilitas3"/>
+
+    </RadioGroup>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="34dp"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_gravity="bottom" />
+
+
+</LinearLayout>
+<!-- From: file:/E:/Nukman/Skripsweet/MainKemana/MainKemana/app/src/main/res/layout/choose.xml -->
